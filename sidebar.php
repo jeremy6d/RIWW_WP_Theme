@@ -7,7 +7,7 @@
  * @since Starkers 3.0
  */
 ?>
-
+    <div class="sidebar">
 			<ul class="xoxo">
 
 <?php
@@ -49,4 +49,4 @@
 				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 			</ul>
 
-<?php endif; ?>
+<?php endif; ?></div></div>

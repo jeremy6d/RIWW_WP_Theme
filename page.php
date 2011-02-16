@@ -29,6 +29,6 @@ get_header(); ?>
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; ?>
-
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

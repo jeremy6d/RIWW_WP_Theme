@@ -46,6 +46,6 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 	 */
 	 get_template_part( 'loop', 'author' );
 ?>
-
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -1,3 +1,4 @@
+<div class="bottom">
 <?php
 /**
  * The template for displaying the footer.
@@ -17,10 +18,10 @@
 	 */
 	get_sidebar( 'footer' );
 ?>
-
+<?php /*
 			<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a>
-
+*/ ?>
 <?php
 	/* Always have wp_footer() just before the closing </body>
 	 * tag of your theme, or you will break many plugins, which
@@ -29,5 +30,7 @@
 
 	wp_footer();
 ?>
+</div>
+</div>
 </body>
 </html>

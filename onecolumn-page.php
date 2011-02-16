@@ -24,5 +24,5 @@ get_header(); ?>
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; ?>
-
+</div>
 <?php get_footer(); ?>
