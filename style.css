@@ -1,0 +1,370 @@
+/*
+Theme Name: Starkers
+Theme URI: http://elliotjaystocks.com
+Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
+Version: 3.0
+Author: Elliot Jay Stocks
+Author URI: http://elliotjaystocks.com
+Tags: starkers, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+/* Bizhan's Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+}
+
+body {
+	background-color:white;
+	background-image:url(images/blackdenimbg2.jpg);
+	border: 0,0,0,0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+caption, th, td {
+	font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+:focus {
+	outline: 0;
+}
+ul {
+	list-style: none;
+}
+
+
+/* page headlines */
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #800202;
+	text-align: left;
+}
+
+/* content headlines */
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:5px;
+	font-weight: bold;
+	color: #eb49e5;
+	text-align: left;
+}
+
+/* sidebard headlines */
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4c4a4a;
+	text-align: left;
+}
+
+
+.bodycopy {
+	color: #4c4a4a;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	line-height: 31px;
+}
+
+
+#imagelinks a {
+	border:solid; 
+	border-color: #800202;
+	border:5px;
+}
+
+#imagelinks a:hover{
+	border:solid; 
+	border-color: #4c4a4a;
+	border:5px;
+}
+
+
+
+/*main container*/
+.maincontainer {
+	width: 1026px;
+	border: none;
+    text-align: center;
+	margin: 0 auto;
+	display:block;
+	
+}
+
+/* top banner */
+.banner {
+	width: 1026px;
+	height: 231px;
+	background-image: url(images/iwwsitebanner_01.png);
+	background-repeat: no-repeat;
+	position: relative;
+	border: none;
+}
+
+/* navigation classes */
+
+.navcontainer {
+	border: none;
+	width: 1026px;
+	height: 50px;
+	position:relative;
+	float: left;
+	background-image: url(images/navBG.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	border: none;
+}
+.buttoncontainer {
+	float: left;
+	padding-left: 43px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding-top: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	position: relative;
+	clear: none;
+    position:inherit;
+}
+
+.buttons {
+	display:block;
+	margin-left: 20px;
+	font-size: 18px;
+	height: 27px;
+	padding-top: 5px;
+	text-decoration: none;
+	background-image:url(images/navlinebreak.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	vertical-align:middle;
+	float: left;
+}
+
+.buttons a {
+	float: left;
+	padding-left: 0px;
+	position: relative;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 18px;
+	height: 27px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 16px;
+	float: left;
+}
+
+.buttons a:hover {
+	float: left;
+	padding-left: 0px;
+	position: relative;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 18px;
+	height: 27px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 16px;
+	text-decoration: none;
+	float: left;
+}
+
+.socialmediaicons {
+	width: 190px;
+	height:41px;
+	position:relative;
+	display:block;
+	z-index:1;
+	left: 800px;
+	top: 215px;
+}
+
+.icon {
+	width: 41px;
+	height: 41px;
+	padding-right:20px;
+	float: left;
+}
+
+/*main content*/
+.spacer {
+	width: 1026px;
+	background-image:url(images/navcontentspacer.png);
+	background-repeat: repeat-y;	
+	padding-top:20px;
+	padding-bottom:20px;
+	float: left;
+	padding-left: 70px;
+	position: relative;
+}
+
+.contentcontainer {
+	width: 1026px;
+	background-image:url(images/contentbackground.png);
+	background-repeat:repeat;
+	position:relative;
+}
+
+.contentbody {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4a4a;
+	width: 545px;
+	padding-right: 20px;
+	text-align: left;	
+	line-height: 20px;
+	position:relative;
+}
+.contentbody a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #800202;
+	width: 545px;
+	text-align: left;	
+	line-height: 20px;
+	position:relative;
+	text-decoration: none;
+	float:left
+}
+.contentbody a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 545px;
+	color: #FFF;
+	text-align: left;	
+	line-height: 20px;
+}
+
+/*sidebar*/
+.sidebar {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4a4a;
+	width: 315px;
+	text-align: left;
+	padding-left:20px;
+	line-height: 20px;
+	position:relative;
+	background-image:url(images/contentlinebreak.gif);
+	background-repeat:repeat-y;
+	background-position:left
+}
+.sidebar a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #800202;
+	width: 315px;
+	text-align: left;	
+	line-height: 20px;
+	position:relative;
+	text-decoration: none;
+	float:left
+}
+.sidebar a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 315px;
+	color: #FFF;
+	text-align: left;	
+	line-height: 20px;
+}
+
+/*bottom*/
+.bottom {
+	width: 1026px;
+	height: 101px;
+	background-image:url(images/contentbottom.png);
+	background-repeat:no-repeat;	
+	float: left;
+	padding-left: 0px;
+	position: relative;
+	
+
+}
+
+/*fanceyBox Gallery*/
+
+#presscontent {
+	float: left;
+	padding-left: 0px;
+	width: 790px;
+	possition: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4a4a;
+	text-align: left;
+	padding-top: 0px;
+}
+.press {
+	height: 150px;
+	width:80px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	float: left;
+	text-align:left;
+}
+.press a img {
+	border: 2px solid #eb49e5;
+}
+.press a img:hover {
+	border: 2px solid #4c4a4a;
+}
+
+.hidden{
+	position: absolute;
+	left: -9999em;
+}
+
+.captions {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align:left;
+	color: #4a4a4a;
+}
+#date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align:left;
+	color: #EB49E5;
+	font-weight: bold;
+	float: left;
+	width: 730px;
+	height: 25px;
+	margin-top:20px;
+}
