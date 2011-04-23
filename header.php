@@ -51,8 +51,8 @@
       <div class="banner">
         <div class="socialmediaicons">
           <ul>
-		<li class="icon"><a href="/blog"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facbook.png" /></a></li>
-	    	<li class="icon"><a href="/calendar.php"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twittericon.png" /></a></li>
+		<li class="icon"><a href="http://www.facebook.com/group.php?gid=104341466270678"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facbook.png" /></a></li>
+	    	<li class="icon"><a href="http://twitter.com/richmondiww"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twittericon.png" /></a></li>
         	<li class="icon"><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rssicon.png" /></a></li>
 	  </ul>
         </div>
@@ -60,8 +60,7 @@
 
       <div class="navcontainer">
 	<div class="buttoncontainer">
-          <?php wp_list_pages('link_before=<li class="buttons">&depth=1&title_li='); ?> 
+          <ul><?php wp_list_pages('depth=1&title_li='); ?></ul>
 	</div>
      </div>
      <div class="spacer">
-	<div class="contentbody">

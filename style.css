@@ -1,6 +1,6 @@
 /*
 Theme Name: RIWW
-Theme URI: http://elliotjaystocks.com
+Theme URI: http://richmondiww.org
 Description: RIWW theme based on Starkers
 Version: 0.1
 Author: Bizhan Kodabandeh
@@ -62,6 +62,8 @@ ul {
 
 
 /* page headlines */
+
+/* CHANGED THIS (added bottom padding) */
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
@@ -69,36 +71,167 @@ h1 {
 	padding-top: 20px;
 	color: #800202;
 	text-align: left;
+	padding-bottom: 20px;
 }
 
 /* content headlines */
+
+
+/* CHANGED THIS (add "a" and "a hover") */
+				 
 h2 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	padding-top:5px;
 	font-weight: bold;
-	color: #eb49e5;
-	text-align: left;
-}
-
-/* sidebard headlines */
-h2 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	font-weight: bold;
 	color: #4c4a4a;
 	text-align: left;
 }
+
+h2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:5px;
+	font-weight: bold;
+	color: #4c4a4a;
+	text-align: left;
+	
+}
+
+h2 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:5px;
+	font-weight: bold;
+	color: #800202;
+	text-align: left;
+}
+
+/* sidebar headlines CHANGED (deleted this addition h2 tag) */
+
 
 
 .bodycopy {
 	color: #4c4a4a;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: left;
 	line-height: 31px;
+	text-align:left;
 }
 
+/* CHANGED (added read full article style */
+
+.readfull a {
+	color: #800202;
+	font-size: 12px;
+	float: left;
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	height: 20px;
+	text-decoration:none;
+}
+
+.readfull a:hover {
+	float: left;
+	color: #800202;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	width: 500px;
+	height: 20px;
+	text-decoration:none;
+}
+
+.tagslabel {
+	position:relative;
+	color: #4c4a4a;
+	float:left;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	font-weight:bold;
+	text-align: left;
+	height: 20px;
+}
+
+.tags a {
+	padding-top: 10px;
+	color: #800202;
+	font-size: 12px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+	text-align: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration:underline;
+}
+
+.tags a:hover {
+	padding-top: 10px;
+	color: white;
+	font-size: 12px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration:underline;
+	
+}
+
+.tagscontainer {
+	vertical-align: middle;
+	position: relative;
+	width: 500px;
+	float: left;
+}
+
+.categorieslabel {
+	position:relative;
+	color: #4c4a4a;
+	float:left;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	font-weight:bold;
+	text-align: left;
+	height: 20px;
+}
+
+.categories a {
+	padding-top: 10px;
+	color: #800202;
+	font-size: 12px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+	text-align: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration:underline;
+}
+
+.categories a:hover {
+	padding-top: 10px;
+	color: white;
+	font-size: 12px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration:underline;
+	
+}
+
+.categoriescontainer {
+	vertical-align: middle;
+	position: relative;
+	width: 500px;
+	float: left;
+}
 
 #imagelinks a {
 	border:solid; 
@@ -147,6 +280,7 @@ h2 {
 	background-repeat: no-repeat;
 	border: none;
 }
+
 .buttoncontainer {
 	float: left;
 	padding-left: 43px;
@@ -160,7 +294,7 @@ h2 {
     position:inherit;
 }
 
-.buttons {
+.page_item {
 	display:block;
 	margin-left: 20px;
 	font-size: 18px;
@@ -174,7 +308,7 @@ h2 {
 	float: left;
 }
 
-.buttons a {
+.page_item a {
 	float: left;
 	padding-left: 0px;
 	position: relative;
@@ -188,7 +322,7 @@ h2 {
 	float: left;
 }
 
-.buttons a:hover {
+.page_item a:hover {
 	float: left;
 	padding-left: 0px;
 	position: relative;
@@ -203,6 +337,8 @@ h2 {
 	float: left;
 }
 
+/* CHANGED (adjusted top margin to 185px) */
+
 .socialmediaicons {
 	width: 190px;
 	height:41px;
@@ -210,7 +346,7 @@ h2 {
 	display:block;
 	z-index:1;
 	left: 800px;
-	top: 215px;
+	top: 185px;
 }
 
 .icon {
@@ -239,22 +375,68 @@ h2 {
 	position:relative;
 }
 
-.contentbody {
+/*CHANGED added bodywrapperstyle */
+.bodywrapper {
 	float:left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #4a4a4a;
 	width: 545px;
 	padding-right: 20px;
+	line-height: 20px;
+	position:relative;
+}
+
+/* CHANGED added posted by and date */
+.postwrapper {
+	width: 500px;
 	text-align: left;	
 	line-height: 20px;
 	position:relative;
+	float:left	
+}
+
+.postedby {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4a4a4a;
+	text-align:left;	
+}
+
+.postedby a {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #800202;
+	text-align:left;
+	text-decoration:none;
+}
+
+.postedby a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	text-align:left;
+	text-decoration:none;
+
+}
+
+
+/* CHANGED (width deleted added margin-top replaced with bodywrapper) */
+.contentbody {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4a4a;
+	padding-right: 20px;
+	line-height: 20px;
+	text-align:left;
+	position:relative;
+	margin-top:10px;
 }
 .contentbody a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #800202;
-	width: 545px;
 	text-align: left;	
 	line-height: 20px;
 	position:relative;
@@ -264,13 +446,15 @@ h2 {
 .contentbody a:hover{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	width: 545px;
 	color: #FFF;
 	text-align: left;	
 	line-height: 20px;
 }
 
 /*sidebar*/
+
+/*changed added search div*/
+
 .sidebar {
 	float:left;
 	font-family: Arial, Helvetica, sans-serif;
@@ -283,7 +467,8 @@ h2 {
 	position:relative;
 	background-image:url(images/contentlinebreak.gif);
 	background-repeat:repeat-y;
-	background-position:left
+	background-position:left;
+	margin-top: 20px;
 }
 .sidebar a {
 	font-family: Arial, Helvetica, sans-serif;
@@ -294,7 +479,7 @@ h2 {
 	line-height: 20px;
 	position:relative;
 	text-decoration: none;
-	float:left
+	float:left;
 }
 .sidebar a:hover{
 	font-family: Arial, Helvetica, sans-serif;
@@ -305,6 +490,7 @@ h2 {
 	line-height: 20px;
 }
 
+
 /*bottom*/
 .bottom {
 	width: 1026px;
@@ -313,9 +499,110 @@ h2 {
 	background-repeat:no-repeat;	
 	float: left;
 	padding-left: 0px;
+	padding-top: 90px;
+	padding-right: 90px;
 	position: relative;
-	
 
+}
+
+/*CHANGED added search styles*/
+.searchcontainer {
+	position:inherit;
+	float: left;
+	height: 40px;
+	width:280px;
+}
+
+.searchbox {
+	margin-bottom: 8px;	
+	height:40px;
+	float:left;
+	margin-top: 2px;
+}
+
+.searchbutton {
+	position:inherit;
+	float: left;
+	height: 40px;
+}
+
+/*CHANGED add UL you can name this whatever needed (only for a demo page)*/
+ul a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	list-style: none;
+	list-style-image: none;
+	color: #800202;
+	margin: 0px, 0px, 0px, 0px;
+	float:left;
+	position:relative;
+		padding:0px;
+	
+}
+
+ul a:hover {
+	float:left;
+	position:relative;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	list-style: none;
+	list-style-image: none;
+	color: #FFF;
+	margin: 0px, 0px, 0px, 0px;
+		padding:0px;
+	
+}
+
+li a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	list-style: none;
+	list-style-image: none;
+	color: #800202;
+	margin: 0px, 0px, 0px, 0px;
+	float:left;
+	position:relative;
+}
+
+li a:hover {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	list-style: none;
+	list-style-image: none;
+	color: #FFF;
+	margin: 0px;
+	padding:0px;
+	float:left;
+	position:relative;
+		padding:0px;
+}
+
+/*CHANGED & added member login */
+
+.login a {
+	position: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666464;
+	text-align: right;
+	text-decoration: none;
+	float: right;
+	padding-right: 0px;
+	margin-right:60px;
+}
+
+.login a:hover {
+	position: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+	float: right;
+	padding-right: 0px;
+	margin-right:60px;
 }
 
 /*fanceyBox Gallery*/

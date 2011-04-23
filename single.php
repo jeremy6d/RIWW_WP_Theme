@@ -36,7 +36,7 @@ get_header(); ?>
 				<?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'twentyten' ) . ' %title' ); ?>
 				<?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '' ); ?>
 
-				<?php comments_template( '', true ); ?>
+				<!-- ?php comments_template( '', true ); ? -->
 
 <?php endwhile; // end of the loop. ?>
 </div>
